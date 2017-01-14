@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NYArticlesView.h"
 
 @interface ViewController : UIViewController
+
+@property (nonatomic, weak) IBOutlet NYArticlesView *articleView;
+@property (weak, nonatomic) IBOutlet UISearchBar *articleSearchBar;
 
 
 @end

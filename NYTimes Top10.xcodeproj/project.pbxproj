@@ -11,6 +11,11 @@
 		C95BA3861E2A032900060EA0 /* NYMediaMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = C95BA3801E2A032900060EA0 /* NYMediaMetadata.m */; };
 		C95BA3871E2A032900060EA0 /* NYResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C95BA3821E2A032900060EA0 /* NYResponse.m */; };
 		C95BA3881E2A032900060EA0 /* NYResults.m in Sources */ = {isa = PBXBuildFile; fileRef = C95BA3841E2A032900060EA0 /* NYResults.m */; };
+		C95BA38F1E2A0CCF00060EA0 /* RestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C95BA38E1E2A0CCF00060EA0 /* RestClient.m */; };
+		C95BA3941E2A106F00060EA0 /* NYArticlesView.m in Sources */ = {isa = PBXBuildFile; fileRef = C95BA3931E2A106F00060EA0 /* NYArticlesView.m */; };
+		C95BA3971E2A10C800060EA0 /* NYArticlesCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = C95BA3961E2A10C800060EA0 /* NYArticlesCollectionView.m */; };
+		C95BA39A1E2A112100060EA0 /* NYArticleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C95BA3991E2A112100060EA0 /* NYArticleCell.m */; };
+		C95BA39D1E2A113900060EA0 /* NYArticleLoadingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C95BA39C1E2A113900060EA0 /* NYArticleLoadingCell.m */; };
 		C9D88E1A1E29E5C9006142EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D88E191E29E5C9006142EA /* main.m */; };
 		C9D88E1D1E29E5C9006142EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D88E1C1E29E5C9006142EA /* AppDelegate.m */; };
 		C9D88E201E29E5C9006142EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D88E1F1E29E5C9006142EA /* ViewController.m */; };
@@ -48,6 +53,17 @@
 		C95BA3821E2A032900060EA0 /* NYResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYResponse.m; sourceTree = "<group>"; };
 		C95BA3831E2A032900060EA0 /* NYResults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYResults.h; sourceTree = "<group>"; };
 		C95BA3841E2A032900060EA0 /* NYResults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYResults.m; sourceTree = "<group>"; };
+		C95BA38D1E2A0CCF00060EA0 /* RestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestClient.h; sourceTree = "<group>"; };
+		C95BA38E1E2A0CCF00060EA0 /* RestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestClient.m; sourceTree = "<group>"; };
+		C95BA3911E2A0D7C00060EA0 /* NYConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NYConstants.h; path = Constants/NYConstants.h; sourceTree = "<group>"; };
+		C95BA3921E2A106F00060EA0 /* NYArticlesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYArticlesView.h; sourceTree = "<group>"; };
+		C95BA3931E2A106F00060EA0 /* NYArticlesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYArticlesView.m; sourceTree = "<group>"; };
+		C95BA3951E2A10C800060EA0 /* NYArticlesCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYArticlesCollectionView.h; sourceTree = "<group>"; };
+		C95BA3961E2A10C800060EA0 /* NYArticlesCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYArticlesCollectionView.m; sourceTree = "<group>"; };
+		C95BA3981E2A112100060EA0 /* NYArticleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYArticleCell.h; sourceTree = "<group>"; };
+		C95BA3991E2A112100060EA0 /* NYArticleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYArticleCell.m; sourceTree = "<group>"; };
+		C95BA39B1E2A113900060EA0 /* NYArticleLoadingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYArticleLoadingCell.h; sourceTree = "<group>"; };
+		C95BA39C1E2A113900060EA0 /* NYArticleLoadingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYArticleLoadingCell.m; sourceTree = "<group>"; };
 		C9D88E151E29E5C9006142EA /* NYTimes Top10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NYTimes Top10.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9D88E191E29E5C9006142EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C9D88E1B1E29E5C9006142EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -106,6 +122,23 @@
 			path = NYResponse;
 			sourceTree = "<group>";
 		};
+		C95BA3891E2A0CA700060EA0 /* RestClient */ = {
+			isa = PBXGroup;
+			children = (
+				C95BA38D1E2A0CCF00060EA0 /* RestClient.h */,
+				C95BA38E1E2A0CCF00060EA0 /* RestClient.m */,
+			);
+			name = RestClient;
+			sourceTree = "<group>";
+		};
+		C95BA3901E2A0D5000060EA0 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				C95BA3911E2A0D7C00060EA0 /* NYConstants.h */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
 		C9D88E0C1E29E5C9006142EA = {
 			isa = PBXGroup;
 			children = (
@@ -129,11 +162,21 @@
 		C9D88E171E29E5C9006142EA /* NYTimes Top10 */ = {
 			isa = PBXGroup;
 			children = (
+				C95BA3921E2A106F00060EA0 /* NYArticlesView.h */,
+				C95BA3931E2A106F00060EA0 /* NYArticlesView.m */,
+				C95BA3951E2A10C800060EA0 /* NYArticlesCollectionView.h */,
+				C95BA3961E2A10C800060EA0 /* NYArticlesCollectionView.m */,
+				C95BA3981E2A112100060EA0 /* NYArticleCell.h */,
+				C95BA3991E2A112100060EA0 /* NYArticleCell.m */,
+				C95BA39B1E2A113900060EA0 /* NYArticleLoadingCell.h */,
+				C95BA39C1E2A113900060EA0 /* NYArticleLoadingCell.m */,
 				C9D88E1B1E29E5C9006142EA /* AppDelegate.h */,
 				C9D88E1C1E29E5C9006142EA /* AppDelegate.m */,
 				C9D88E1E1E29E5C9006142EA /* ViewController.h */,
 				C9D88E1F1E29E5C9006142EA /* ViewController.m */,
 				C9D88E4B1E29F817006142EA /* Model */,
+				C95BA3901E2A0D5000060EA0 /* Constants */,
+				C95BA3891E2A0CA700060EA0 /* RestClient */,
 				C9D88E211E29E5C9006142EA /* Main.storyboard */,
 				C9D88E241E29E5C9006142EA /* Assets.xcassets */,
 				C9D88E261E29E5C9006142EA /* LaunchScreen.storyboard */,
@@ -314,12 +357,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C95BA3941E2A106F00060EA0 /* NYArticlesView.m in Sources */,
+				C95BA39A1E2A112100060EA0 /* NYArticleCell.m in Sources */,
 				C9D88E201E29E5C9006142EA /* ViewController.m in Sources */,
 				C9D88E1D1E29E5C9006142EA /* AppDelegate.m in Sources */,
 				C9D88E1A1E29E5C9006142EA /* main.m in Sources */,
 				C95BA3851E2A032900060EA0 /* NYMedia.m in Sources */,
+				C95BA39D1E2A113900060EA0 /* NYArticleLoadingCell.m in Sources */,
+				C95BA38F1E2A0CCF00060EA0 /* RestClient.m in Sources */,
 				C95BA3861E2A032900060EA0 /* NYMediaMetadata.m in Sources */,
 				C95BA3881E2A032900060EA0 /* NYResults.m in Sources */,
+				C95BA3971E2A10C800060EA0 /* NYArticlesCollectionView.m in Sources */,
 				C95BA3871E2A032900060EA0 /* NYResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

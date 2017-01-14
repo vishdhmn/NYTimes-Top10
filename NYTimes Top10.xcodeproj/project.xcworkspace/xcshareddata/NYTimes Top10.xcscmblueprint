@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F42867D376E9BA528BEA9632E962B35AD7CAA5E0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "ADA92E93B4795F568E06A99605E230C546CFFDA0" : 9223372036854775807,
+    "F42867D376E9BA528BEA9632E962B35AD7CAA5E0" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "998FC931-BE4A-46E9-8E7E-A67574FE0250",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "ADA92E93B4795F568E06A99605E230C546CFFDA0" : "..\/Projects\/Twigly",
+    "F42867D376E9BA528BEA9632E962B35AD7CAA5E0" : "NYTimes-Top10\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "NYTimes Top10",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "NYTimes Top10.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/twigly\/ios_app.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ADA92E93B4795F568E06A99605E230C546CFFDA0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/vishdhmn\/NYTimes-Top10",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F42867D376E9BA528BEA9632E962B35AD7CAA5E0"
+    }
+  ]
+}
