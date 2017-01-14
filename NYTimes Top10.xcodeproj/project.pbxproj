@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C95BA3851E2A032900060EA0 /* NYMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = C95BA37E1E2A032900060EA0 /* NYMedia.m */; };
+		C95BA3861E2A032900060EA0 /* NYMediaMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = C95BA3801E2A032900060EA0 /* NYMediaMetadata.m */; };
+		C95BA3871E2A032900060EA0 /* NYResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C95BA3821E2A032900060EA0 /* NYResponse.m */; };
+		C95BA3881E2A032900060EA0 /* NYResults.m in Sources */ = {isa = PBXBuildFile; fileRef = C95BA3841E2A032900060EA0 /* NYResults.m */; };
 		C9D88E1A1E29E5C9006142EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D88E191E29E5C9006142EA /* main.m */; };
 		C9D88E1D1E29E5C9006142EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D88E1C1E29E5C9006142EA /* AppDelegate.m */; };
 		C9D88E201E29E5C9006142EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D88E1F1E29E5C9006142EA /* ViewController.m */; };
@@ -35,6 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C95BA37B1E2A032900060EA0 /* DataModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModels.h; sourceTree = "<group>"; };
+		C95BA37D1E2A032900060EA0 /* NYMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYMedia.h; sourceTree = "<group>"; };
+		C95BA37E1E2A032900060EA0 /* NYMedia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYMedia.m; sourceTree = "<group>"; };
+		C95BA37F1E2A032900060EA0 /* NYMediaMetadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYMediaMetadata.h; sourceTree = "<group>"; };
+		C95BA3801E2A032900060EA0 /* NYMediaMetadata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYMediaMetadata.m; sourceTree = "<group>"; };
+		C95BA3811E2A032900060EA0 /* NYResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYResponse.h; sourceTree = "<group>"; };
+		C95BA3821E2A032900060EA0 /* NYResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYResponse.m; sourceTree = "<group>"; };
+		C95BA3831E2A032900060EA0 /* NYResults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYResults.h; sourceTree = "<group>"; };
+		C95BA3841E2A032900060EA0 /* NYResults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYResults.m; sourceTree = "<group>"; };
 		C9D88E151E29E5C9006142EA /* NYTimes Top10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NYTimes Top10.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9D88E191E29E5C9006142EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C9D88E1B1E29E5C9006142EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +91,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C95BA37C1E2A032900060EA0 /* NYResponse */ = {
+			isa = PBXGroup;
+			children = (
+				C95BA37D1E2A032900060EA0 /* NYMedia.h */,
+				C95BA37E1E2A032900060EA0 /* NYMedia.m */,
+				C95BA37F1E2A032900060EA0 /* NYMediaMetadata.h */,
+				C95BA3801E2A032900060EA0 /* NYMediaMetadata.m */,
+				C95BA3811E2A032900060EA0 /* NYResponse.h */,
+				C95BA3821E2A032900060EA0 /* NYResponse.m */,
+				C95BA3831E2A032900060EA0 /* NYResults.h */,
+				C95BA3841E2A032900060EA0 /* NYResults.m */,
+			);
+			path = NYResponse;
+			sourceTree = "<group>";
+		};
 		C9D88E0C1E29E5C9006142EA = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +133,7 @@
 				C9D88E1C1E29E5C9006142EA /* AppDelegate.m */,
 				C9D88E1E1E29E5C9006142EA /* ViewController.h */,
 				C9D88E1F1E29E5C9006142EA /* ViewController.m */,
+				C9D88E4B1E29F817006142EA /* Model */,
 				C9D88E211E29E5C9006142EA /* Main.storyboard */,
 				C9D88E241E29E5C9006142EA /* Assets.xcassets */,
 				C9D88E261E29E5C9006142EA /* LaunchScreen.storyboard */,
@@ -138,6 +167,15 @@
 				C9D88E3F1E29E5CA006142EA /* Info.plist */,
 			);
 			path = "NYTimes Top10UITests";
+			sourceTree = "<group>";
+		};
+		C9D88E4B1E29F817006142EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C95BA37B1E2A032900060EA0 /* DataModels.h */,
+				C95BA37C1E2A032900060EA0 /* NYResponse */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +317,10 @@
 				C9D88E201E29E5C9006142EA /* ViewController.m in Sources */,
 				C9D88E1D1E29E5C9006142EA /* AppDelegate.m in Sources */,
 				C9D88E1A1E29E5C9006142EA /* main.m in Sources */,
+				C95BA3851E2A032900060EA0 /* NYMedia.m in Sources */,
+				C95BA3861E2A032900060EA0 /* NYMediaMetadata.m in Sources */,
+				C95BA3881E2A032900060EA0 /* NYResults.m in Sources */,
+				C95BA3871E2A032900060EA0 /* NYResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,7 +471,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TCYL8VU8RS;
 				INFOPLIST_FILE = "NYTimes Top10/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vishal.NYTimes-Top10";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -442,7 +484,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TCYL8VU8RS;
 				INFOPLIST_FILE = "NYTimes Top10/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vishal.NYTimes-Top10";
 				PRODUCT_NAME = "$(TARGET_NAME)";
